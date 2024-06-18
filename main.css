@@ -1,0 +1,141 @@
+body{
+    width:100%;
+    background-color: #F5F5F5;
+    color: #4f8295;
+    font-family: 'Clear Sans', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 18px;
+}
+.contents{
+    width: 100%;
+    margin: 0 auto 0 auto;
+    max-width: 62.5rem;
+    background: #fff;
+    padding: 15px;
+}
+#logo{
+    display: inline-block;
+    width: 49%;
+}
+#menu {
+    margin-top:25px;
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    text-align: right;
+}
+#menu a{
+    background-color: #008cba;
+    text-decoration: none;
+    border-color: #007295;
+    color: white;
+    padding: 15px;
+}
+#bigImage{
+    width:100%;
+}
+hr{
+    border: solid #dddddd;
+    border-width: 1px 0 0;
+    clear: both;
+    margin: 1.25rem 0 1.1875rem;
+    height: 0;
+}
+#indexImg1{
+    padding-right: 20px;
+    width: 400px;
+    height: 300px;
+    float:left;
+}
+#indexSection1{
+    float:left;
+    margin-top:15px;
+    width:55%;
+}
+#indexSection2{
+    clear:both;
+    float:left;
+    width:55%;
+    margin-top:40px;
+}
+#indexImg2{
+    padding-right: 20px;
+    width:400px;
+    height:300px;
+    float:left;
+}
+#footerText{
+    display: inline-block;
+    width: 50%;
+}
+#footerLinks{
+    display: inline-block;
+    width: 49%;
+    text-align: right;
+}
+
+/*Ova e za stranata News*/
+#newsDots{
+    margin: auto;
+    display: block;
+}
+#newsImg1, #newsImg2, #newsImg3{
+    padding-left: 20px;
+    width: 30%;
+    height: 200px;
+}
+#newsSection1,#newsSection2,#newsSection3{
+    display: inline-block;
+    width: 30%;
+    padding-left: 20px;
+}
+
+/*Ova e za stranata about*/
+#aboutSection1{
+    display: inline-block;
+    width: 75%;
+    padding-left: 20px;
+}
+#aboutSection1 p:first-child{
+    font-size:40px;
+    line-height:0;
+}
+#aboutImg{
+    width:400px;
+    height:300px;
+    float:right;
+}
+#aboutNavigation{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+}
+#aboutNavigation a{
+    line-height: 40px;
+}
+#aboutNavigation p{
+    margin-left:-15px;
+}
+#aboutSection1 h4{
+    line-height: 0;
+}
+/*Ova e za stranata Contact*/
+#contactSection{
+    display: inline-block;
+    width: 65%;
+    padding-left: 20px;
+}
+#contactSection p:first-child{
+    font-size:40px;
+    line-height:0;
+}
+#contactSection h4{
+    line-height: 0;
+}
+#contactMap{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+#contactImg{
+    width:270px;
+}
